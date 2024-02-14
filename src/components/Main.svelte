@@ -6,19 +6,19 @@
             name: "Project 1",
             icon: "fa-solid fa-cart-shopping",
             description:
-                "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
+                "Coming Soon!",
         },
         {
             name: "Project 2",
             icon: "fa-solid fa-list-check",
             description:
-                "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
+                "Coming Soon!",
         },
         {
             name: "Project 3",
             icon: "fa-solid fa-diagram-project",
             description:
-                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+                "Coming Soon!.",
         },
     ];
 
@@ -30,9 +30,9 @@
                 "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
         },
         {
-            name: "a product design & UX finatic",
+            name: "an analytics enthusiast ",
             description:
-                "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+                "Having the ability to interpret and comprehend data enables me to showcase my analytical acumen and problem-solving capabilities. It also allows me to make a significant impact on users by providing them with insightful and meaningful interpretations of complex data concepts.",
         },
         {
             name: "an excellent communicator",
@@ -105,35 +105,22 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    This is the first project description with  <strong
-                        class="text-violet-400"
-                        >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
-                    > Commerce.js is a product CMS and Stripe is used for all transaction
-                    handling.
+            <strong
+                    class ="text-violet-400">Coming Soon! </strong>
                 </p>
             </Step>
             <Step step={steps[1]}>
                 <p>
-                    This is a project 2 description with <strong
-                        class="text-violet-400">Next.js</strong
-                    >,
-                    <strong class="text-violet-400">Node.js + Express.js</strong
-                    >
-                    & <strong class="text-violet-400">Firebase</strong> CRUD application
-                    that allows a user to login, manage a tidy and efficacious todo
-                    list, and persist this information across devices.
+                   <strong
+                        class="text-violet-400">Coming Soon!</strong
+                        >
                 </p>
             </Step>
             <Step step={steps[2]}>
                 <p>
-                    This is a project 3 description with <strong class="text-violet-400"
-                        >SvelteKit & TailwindCSS</strong
+                    <strong class="text-violet-400"
+                        >Coming Soon!</strong
                     >
-                    web application, hosted on
-                    <strong class="text-violet-400">Netlify</strong>, that
-                    consumes and caches the
-                    <strong class="text-violet-400">Pokémon API</strong>
-                    to display all Pokémon information. Gotta catch them all!
                 </p>
             </Step>
         </div>
